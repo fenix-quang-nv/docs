@@ -1,0 +1,7 @@
+Date,Hours,Activity,Comment,Issue
+2026-10-05,3,Analysis,"Release list checked against production vs dev; release notes per item",B
+2026-10-05,4,Development,"Items released to production and smoke-checked",B
+2026-10-05,1,Documentation,"Release record and open items",B
+2026-10-06,4,Analysis,"Customer report Y: cause found and reproduced on dev; no recent rule change",C1
+2026-10-06,1.5,Documentation,"Comment for the PM and proposed changes",C1
+2026-10-06,2.5,Analysis,"Request document read; Sprint 1 split into code items and questions",A1

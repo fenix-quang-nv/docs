@@ -1,0 +1,15 @@
+{
+  "base_url": "https://fenixcorp.cloud.redmine.jp",
+  "project": "ta_tas",
+  "user_id": "232",
+  "tracker_id": "7",
+  "priority_id": "2",
+  "status": { "new": "7", "in_progress": "8", "resolved": "12", "deployed": "13" },
+  "activity": {
+    "Analysis": "35",
+    "Documentation": "35",
+    "Development": "9",
+    "Testing": "34"
+  },
+  "_comment": "Lấy id bằng `python3 rm.py ids`. activity: tên dùng trong file worklog -> id enumeration trên Redmine (35 = Study spec, 9 = Development, 34 = Verify bug)."
+}

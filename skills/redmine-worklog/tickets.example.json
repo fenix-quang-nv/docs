@@ -1,0 +1,18 @@
+{
+  "A": {
+    "subject": "[TAS] Feature X",
+    "description": "What was asked, as it was raised. Not the status, not what was done.",
+    "status": "8", "start": "2026-10-05", "due": "2026-10-09", "est": "16", "done": "50"
+  },
+  "A1": {
+    "subject": "[TAS] Feature X — Sprint 1",
+    "description": "Sprint 1 scope as listed in the request document.",
+    "parent_key": "A",
+    "status": "8", "start": "2026-10-05", "due": "2026-10-09", "est": "16", "done": "90"
+  },
+  "C1": {
+    "subject": "[Support] Customer report Y",
+    "description": "What the customer reported and asked for.",
+    "status": "12", "start": "2026-10-06", "due": "2026-10-06", "est": "4", "done": "100"
+  }
+}
