@@ -14,8 +14,11 @@ Trong Claude Code gõ `/redmine-worklog` hoặc nói "log work tuần vừa rồ
 ## Dùng
 
 1. **Dựng file**: agent đọc git log, evidence, memory và chat của tuần → viết `docs/worklog/<year>-W<nn>-redmine.md` (ticket + log theo ngày + CSV). Xem `example-week.md`.
-2. **Đưa curl**: lấy cookie Redmine theo hướng dẫn dưới, dán vào chat.
-3. Agent tạo ticket (kiểm trùng), log time, verify tổng giờ, ghi id ticket vào file, xoá cookie.
+2. **Grill**: agent hỏi lại theo round (thiếu việc gì, chia giờ, gộp/tách ticket, comment) kèm đề xuất; trả lời xong agent sửa file và hỏi "chốt chưa".
+3. **Đưa curl**: lấy cookie Redmine theo hướng dẫn dưới, dán vào chat.
+4. **Review**: agent in bảng ticket sẽ tạo + time entry sẽ log + tổng giờ; sửa tới khi OK.
+5. **Confirm**: agent hỏi 1 câu "Đẩy lên Redmine bây giờ?"; chỉ chạy khi trả lời rõ ràng.
+6. Agent tạo ticket (kiểm trùng), log time, verify tổng giờ, ghi id ticket vào file, xoá cookie.
 
 ## Lấy curl từ Chrome
 
